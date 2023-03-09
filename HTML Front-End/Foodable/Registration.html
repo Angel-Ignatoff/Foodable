@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Registration.css" />
+    <title>Foodify: Sign up</title>
+  </head>
+  <body>
+    <div class="user">
+      <header class="page_header_logo">
+        <a href="Homepage.html">
+          <img src="Img/foodablemain.jpg" alt="foodable" />
+        </a>
+        <h1 class="page_title">Foodable Registration</h1>
+      </header>
+
+      <form class="form">
+        <div class="form__group">
+          <input
+            type="email"
+            placeholder="Enter Email"
+            class="form__input"
+            required
+          />
+        </div>
+
+        <div class="form__group">
+          <input
+            id="create_pw"
+            type="password"
+            placeholder="Password"
+            class="form__input"
+            required
+            minlength="8"
+          />
+        </div>
+
+        <div class="form__group">
+          <input
+            id="confirm_pw"
+            type="password"
+            placeholder="Re-enter Password"
+            class="form__input"
+            required
+          />
+        </div>
+
+        <div class="accounttype">
+          <input type="radio" name="Donator" /> Donator
+          <input type="radio" name="Donator" /> Receiver
+        </div>
+
+        <div class="tosbox">
+          <input type="checkbox" id="ToS" name="ToS" value="ToS" required />
+          <label for="ToS"
+            >I agree to the <a href="">Terms of Use</a> and
+            <a href="">Privacy Policy</a></label
+          >
+        </div>
+
+        <div class="buttonbg">
+          <input class="regbut" type="submit" value="Register" />
+        </div>
+
+        <div class="g-signin2"></div>
+
+        <p class="sign-inmessage">Or if you have an account</p>
+
+        <div class="signinbut">
+          <a class="sintxt" href="Login_Page.html">Sign In</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

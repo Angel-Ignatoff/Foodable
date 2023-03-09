@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name = "google-signin-client_id" content="437184470351-9voq0m6bg6lkoio7jstsaou2ap1lqu6d.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="stylesheet" href="Login_Page.css" />
+    <title>Foodify: Sign in</title>
+  </head>
+
+  <body>
+    <div class="user">
+      <header class="page_header_logo">
+        <a href="Homepage.html">
+          <img src="Img/foodablemain.jpg" alt="foodable" />
+        </a>
+        <h1 class="page_title">Foodable Sign In</h1>
+      </header>
+
+      <form class="form">
+        <div class="accounttype">
+          <input type="radio" name="Donator" /> Donator
+          <input type="radio" name="Donator" /> Receiver
+        </div>
+
+        <div class="sign-in-form">
+          <input
+            type="email"
+            placeholder="Enter Email"
+            class="form__input"
+            required
+          />
+        </div>
+
+        <div class="sign-in-form">
+          <input
+            type="password"
+            placeholder="Password"
+            class="form__input"
+            required
+            minlength="8"
+          />
+        </div>
+        <div class="buttonbg">
+          <input class="signinbutton" type="submit" value="Sign in" />
+        </div>
+
+        <div class="g-signin2" data-width="50" data-height="50"></div>
+
+        <p class="sign-upmessage">Don't have an account? Sign Up!</p>
+
+        <div class="signupbut">
+          <a class="suptxt" href="Registration.html">Sign up</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

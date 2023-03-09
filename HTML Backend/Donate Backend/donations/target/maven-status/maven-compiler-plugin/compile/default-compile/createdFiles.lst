@@ -1,0 +1,6 @@
+com/donation/donations/item/ItemService.class
+com/donation/donations/item/ItemRepo.class
+com/donation/donations/DonationsApplication.class
+com/donation/donations/item/ItemConfig.class
+com/donation/donations/item/Item.class
+com/donation/donations/item/ItemController.class

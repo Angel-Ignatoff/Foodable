@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis';
+    box-sizing: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite;
+}
+
+.navbar{
+  width: 88%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #1d8787;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.buttons{
+  color: black;
+  text-align: center;
+  margin: 0px;
+  padding: 15px 32px;
+  padding: right;
+}
+.recievefood{
+  text-align: center;
+  padding-left: 100px;
+  margin: 10px;
+  padding: 15px 30px;
+  background-color: #AFC889;
+  border-radius: 30px;
+  text-decoration: none;
+  border: 0;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.donatefood{
+  text-align: center;
+  padding-left: 100px;
+  padding: 15px 30px;
+  background-color: #AFC889;
+  border-radius: 30px;
+  text-decoration: none;
+  border: 0;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.catchphrase{
+  top: 10px;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  padding: 15px 32px;
+}
+
+.minilogo{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.maininfo {
+  background-color: #AFC889;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.active, .maininfo:hover {
+  background-color: #1d8787;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+} 
+
+.maininfo{
+  top: 10px;
+  color: black;
+  font-family: Dosis;
+}
+
+.facts{
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+
+
+.mapintro{
+  top: 10px;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  padding: 15px 32px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.Rights{
+    margin-top: 5px;
+}
+
+.footer-column{
+    text-align: center;
+}
+
+
