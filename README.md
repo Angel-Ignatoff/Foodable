@@ -5,23 +5,21 @@
 
 ### Group Members
 
-Name | Student ID | Feature Contribution |
+Angel Ignatov
 
-Arukhan Kenes | 1940930 | Donation of Food |
+Arukhan Kenes 
 
-Ben Danaka | 2007312 | Verification System |
+Ben Danaka
 
-Vivek Majithia | 2011409 | Location of Food Banks |
+Damian Mielech
 
-Fahad Shahid | 2043669 | Filtering System for Donated Food |
+Fahad Shahid
 
-Joshua Matthews | 2018022 | Mobile Responsive Website |
+Hasan Narmah
 
-Hasan Narmah | 1923193 | Registration |
+Joshua Matthews
 
-Damian Mielech | 2017435 | Reward System |
-
-Angel Ignatov | 2125997 | Contact Us and Welcome Pages |
+Vivek Majithia
 
 ---
 
