@@ -56,7 +56,7 @@ As a user, I need to be able to sign up easily and ensure I can make the right d
 ## Technologies
 
 1. Back-end: SpringBoot
-2. Front-end: We started using HTML, CSS, JS but we have decided to convert to React around December 2021
+2. Front-end:HTML, CSS, JS, React
 3. Database: MySQL
 4. Testing: JUNIT || Postman
 
